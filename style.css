@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #FF00DD 1%, #000000 99%);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    height: 4rem;
+    width: 15rem;
+    border-radius: 50px;
+    border-style: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.5rem;
+    background-color: #020001;
+    color: #960082;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00000000;
+    color: #020001;
+    border: 2px solid #020001;
+}
+
